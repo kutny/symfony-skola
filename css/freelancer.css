@@ -122,13 +122,31 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+@media (max-width: 320px) {
+    header .container {
+        padding-top: 80px;
+    }
+
+    header .intro-text .name {
+        font-size: 2.5em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.5em;
+    }
+
+    img.symfony-logo {
+        max-width: 100px;
+    }
 }
 
 @media (min-width: 768px) and (min-height: 870px) {
@@ -179,7 +197,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 section.success {
@@ -539,6 +557,23 @@ footer .footer-below {
     counter-increment: li;
 }
 
+@media (max-width: 435px) {
+    .is-it-worth-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .is-it-worth-list > li:before {
+        left: 37%;
+    }
+
+    .is-it-worth-list > li {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 80px;
+    }
+}
+
 .study-plan > li:before {
     content: counter(li) ". týden";
     position: absolute;
@@ -565,6 +600,23 @@ footer .footer-below {
     font-size: 18px;
     line-height: 26px;
     counter-increment: li;
+}
+
+@media (max-width: 435px) {
+    .study-plan {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .study-plan > li:before {
+        left: 28%;
+    }
+
+    .study-plan > li {
+        padding-left: 0;
+        padding-top: 70px;
+        text-align: center;
+    }
 }
 
 .sign-up-row {
