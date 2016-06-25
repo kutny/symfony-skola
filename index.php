@@ -291,29 +291,8 @@
                 <div class="col-lg-4">
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label for="phone">Telefon</label>
-                            <input type="tel" class="form-control" placeholder="Telefon" name="phone" id="phone" required data-validation-required-message="Poprosíme tě i o tvůj telefon">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label for="age">Věk</label>
                             <input type="number" class="form-control" placeholder="Věk" name="custom_fields[age]" id="age" required data-validation-required-message="Snad tě neurazíme, ale vyplň i věk">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 controls">
-                            <label for="cv" class="file-input-label">Životopis</label>
-                            <input type="file" class="form-control" placeholder="URL s životopisem" id="cv" required data-validation-required-message="Moc nás zajímá tvůj životopis">
-                            <input type="hidden" name="custom_fields[cvUrl]" id="cvUrl">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
